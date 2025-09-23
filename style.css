@@ -1,0 +1,47 @@
+*{
+/* outline: 1px solid red; */
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Montserrat", sans-serif;
+
+}
+
+body{
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    
+}
+
+.design{
+position:absolute;
+z-index: -1;
+opacity: 0.3;
+width: 375px;
+}
+
+.card{
+
+    width: 350px;
+    background-color: white;
+}
+
+img {
+width: 100%;
+
+}
+
+.card-body{
+padding: 30px;
+
+}
+
+h2{
+
+    font-family: "Fraunces", serif;
+}
