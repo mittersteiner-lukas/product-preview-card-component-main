@@ -1,56 +1,79 @@
 * {
-    /* outline: 1px solid rgb(255, 0, 0); */
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    color: hsl(228, 12%, 48%);
-   }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "montserrat", sans-serif;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
  
 body {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 38%, 92%);
 }
-/* responisve Image */
+ 
 img {
-    width: 100%;
+  max-width: 100%;
 }
  
 .design {
-    position: absolute;
-    z-index: -1;
-    opacity: 0.3;
-    width: 375px;
-   
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  width: 375px;
 }
  
 .card {
-    width: 350px;
-    background-color: white;
-    border-radius: 10px;
-    overflow: hidden;
+  width: 350px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
 }
  
 .card-body {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
  
 .product-name {
-    font-family: "Fraunces", sans-serif;
-    color: black;
-    font-size: 2.3em;
-    line-height: 0.9;
+  font-family: "fraunces", serif;
+  color: hsl(158, 42%, 18%);
+  font-size: 2.3em;
+  line-height: 0.92;
 }
  
 .product-type {
-    text-transform: uppercase;
-    letter-spacing: 3px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+ 
+.price {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+ 
+.price-new {
+  color: hsl(158, 36%, 37%);
+  font-family: "fraunces", serif;
+  font-size: 2.3em;
+  font-weight: 700;
+}
+ 
+.price-old {
+  text-decoration: line-through;
+}
+ 
+.cart-btn {
+  color: whitesmoke;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
 }
