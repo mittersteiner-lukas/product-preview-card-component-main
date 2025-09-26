@@ -82,12 +82,12 @@ img {
   gap:0.5rem;
 }
 
-.card-btn:hover{
+.cart-btn:hover{
 
     cursor: pointer;
 }
 
-.card-btn:active{
+.cart-btn:active{
 
     background-color: hsl(158, 42%, 18%);
 }
