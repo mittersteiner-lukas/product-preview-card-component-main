@@ -6,8 +6,7 @@
   font-size: 14px;
   color: hsl(228, 12%, 48%);
 }
-
-
+ 
 body {
   min-height: 100vh;
   display: flex;
@@ -16,88 +15,74 @@ body {
   align-items: center;
   background-color: hsl(30, 38%, 92%);
 }
-
-
+ 
 img {
   max-width: 100%;
 }
-
-
+ 
 .mobile-img {
   max-width: 100%;
   display: block;
 }
-
-
+ 
 .desktop-img {
-  max-width: 100%;
   display: none;
 }
-
-
+ 
 .design {
   position: absolute;
   z-index: 1;
   opacity: 0;
   width: 375px;
 }
-
-
+ 
 .product-description {
   line-height: 1.8;
 }
-
-
+ 
 .card {
   width: 350px;
   background-color: white;
   border-radius: 10px;
   overflow: hidden;
 }
-
-
+ 
 .card-body {
   padding: 30px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-
-
+ 
 .product-name {
   font-family: "fraunces", serif;
   color: hsl(158, 42%, 18%);
   font-size: 2.3em;
   line-height: 0.92;
 }
-
-
+ 
 .product-type {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-
-
+ 
 .price {
   display: flex;
   align-items: center;
   gap: 1em;
 }
-
-
+ 
 .price-new {
   color: hsl(158, 36%, 37%);
   font-family: "fraunces", serif;
   font-size: 2.3em;
   font-weight: 700;
 }
-
-
+ 
 .price-old {
   text-decoration: line-through;
 }
-
-
+ 
 .cart-btn {
   color: whitesmoke;
   background-color: hsl(158, 36%, 37%);
@@ -110,34 +95,28 @@ img {
   gap: 0.4rem;
   font-weight: 500;
 }
-
-
+ 
 .cart-btn:hover {
   cursor: pointer;
 }
-
-
+ 
 .cart-btn:active {
   background-color: hsl(158, 42%, 18%);
 }
-
-
+ 
 @media screen and (min-width: 768px) {
   .card {
     display: flex;
     width: 600px;
   }
   .mobile-img {
-    max-width: 100%;
     display: none;
   }
-
-
+ 
   .desktop-img {
     display: block;
-    max-width: 100%;
+    width: 300px;
   }
 }
-
-
+ 
  
